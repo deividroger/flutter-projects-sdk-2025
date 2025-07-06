@@ -44,3 +44,90 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# === FLUTTER ===
+.dart_tool/
+.buildlog/
+.packages
+.pub-cache/
+flutter_*.png
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# iOS
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Pods/
+ios/.symlinks/
+ios/Runner.xcworkspace/
+ios/DerivedData/
+ios/Flutter/App.framework
+ios/Flutter/engine/
+
+# Android
+android/.gradle/
+android/captures/
+android/.idea/
+android/local.properties
+android/app/google-services.json
+
+# VS Code / IntelliJ / Xcode / Android Studio
+.vscode/
+.idea/
+*.iml
+*.swp
+*.lock
+.DS_Store
+
+# === FIREBASE ===
+
+# Firebase core credentials
+firebase.json
+.firebaserc
+.firebase/
+firebase-debug.log
+
+# Firebase Android credentials (contém keys e IDs de projeto)
+android/app/google-services.json
+
+
+# Firebase iOS credentials (contém keys e IDs de projeto)
+ios/Runner/GoogleService-Info.plist
+
+# Firebase CLI emuladores (se usados)
+firestore-debug.log
+emulators/*.json
+storage-debug.log
+ui-debug.log
+
+# Firebase Hosting cache/temp files
+firebase-hosting-cache/
+
+# === FIREBASE FUNCTIONS ===
+
+functions/node_modules/
+functions/.env
+functions/.env.*
+functions/.runtimeconfig.json
+functions/lib/
+functions/coverage/
+functions/*.log
+
+# === ENV FILES ===
+.env
+.env.*
+.envrc
+
+# === LOGS ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === OS-ESPECIFICOS ===
+Thumbs.db
+Desktop.ini
+.DS_Store
+google-services.json
